@@ -6,8 +6,8 @@
 # Put commands below
 mkdir  main
 cd main
-mkdir  A C D  A/B A/C A/D C/E C/F D/G D/H D/I D/H/J D/H/K
-touch A/aa C/cc D/dd  A/B/bb A/C/cc A/D/dd C/E/ee C/F/ff D/G/gg D/H/hh D/I/ii D/H/J/jj D/H/K/kk
+mkdir  A E H  A/B A/C A/D E/F E/G H/I H/J H/M H/J/K H/J/L 
+touch A/aa E/ee H/hh  A/B/bb A/C/cc A/D/dd E/F/ff E/G/gg H/I/ii H/J/jj H/M/mm H/J/K/kk H/J/L/ll 
 cd .. 
 sudo apt-get update
 sudo apt-get install -y tree
